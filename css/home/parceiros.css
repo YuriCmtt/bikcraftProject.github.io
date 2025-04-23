@@ -6,6 +6,7 @@
 .parceiros h2 {
   margin-bottom: 60px;
 }
+
 .parceiros ul {
   padding: 0 20px;
   max-width: 1400px;
@@ -14,14 +15,19 @@
   margin: 0 auto;
 }
 
-.parceiros li {
-  display: flex;
-  padding: 32px;
-  border-left: 2px solid var(--c2);
-}
 .parceiros img {
   margin: auto;
 }
+
+.parceiros li {
+  display: flex;
+  padding: 32px;
+}
+
+.parceiros li {
+  border-left: 2px solid var(--c2);
+}
+
 .parceiros li:first-child,
 .parceiros li:nth-child(5) {
   border-left: none;
@@ -35,9 +41,6 @@
   .parceiros {
     padding-bottom: 60px;
   }
-  .parceiros li {
-    padding: 20px;
-  }
   .parceiros h2 {
     margin-bottom: 20px;
   }
@@ -47,7 +50,8 @@
   .parceiros li:nth-child(n + 3) {
     border-top: 2px solid var(--c2);
   }
-  .parceiros li:nth-child(odd) {
+  .parceiros li:nth-child(3),
+  .parceiros li:nth-child(7) {
     border-left: none;
   }
 }
